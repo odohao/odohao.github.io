@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="Javadoc API documentation for Knox SDK API reference." />
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+    <title>
+      Package Index
+    | Knox SDK API reference
+    </title>
+    <link href="./../assets/doclava-developer-docs.css" rel="stylesheet" type="text/css" />
+    <link href="./../assets/customizations.css" rel="stylesheet" type="text/css" />
+    <script src="./../assets/search_autocomplete.js" type="text/javascript"></script>
+    <script src="./../assets/jquery-resizable.min.js" type="text/javascript"></script>
+    <script src="./../assets/doclava-developer-docs.js" type="text/javascript"></script>
+    <script src="./../assets/prettify.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      setToRoot("./", "./../assets/");
+    </script>
+    <script src="./../assets/doclava-developer-reference.js" type="text/javascript"></script>
+    <script src="./../assets/navtree_data.js" type="text/javascript"></script>
+    <script src="./../assets/customizations.js" type="text/javascript"></script>
+    <noscript>
+      <style type="text/css">
+        html,body{overflow:auto;}
+        #body-content{position:relative; top:0;}
+        #doc-content{overflow:visible;border-left:3px solid #666;}
+        #side-nav{padding:0;}
+        #side-nav .toggle-list ul {display:block;}
+        #resize-packages-nav{border-bottom:3px solid #666;}
+      </style>
+    </noscript>
+  </head>
+
+<body class="gc-documentation">
+
+
+<div id="header">
+
+  <div id="top-box">
+    <a href="https://docs.samsungknox.com/devref/knox-sdk/reference/packages.html" target="_blank">&lt; Back to Knox SDK API References page</a>
+  </div>
+
+  <div id="headerLeft" style="top: 37px;">
+    <a href="./packages.html" style="text-decoration: none;">
+      <img src="./../assets/images/samsung logo black.svg" alt="Samsung Electronics">
+      
+        <h1 id="masthead-title">Knox SDK API reference</h1>
+      
+    </a>
+  </div>
+
+  <div id="headerRight" style="top: 50px;">
+    <div id="search" >
+    </div><!-- search -->
+  </div>
+
+  <div id="bottom-box">
+    
+      
+  <div id="api-level-toggle">
+    <label><a href="https://seap.samsung.com/sdk/knox-version-mapping">Map API level to SDK version</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <input type="checkbox" id="apiLevelCheckbox" onclick="toggleApiLevelSelector(this)" />
+    <label for="apiLevelCheckbox" class="disabled">Filter by API level: </label>
+    <select id="apiLevelSelector">
+      <!-- option elements added by buildApiLevelSelector() -->
+    </select>
+  </div>
+  <script>
+   var SINCE_DATA = [ '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35' ];
+    
+    var SINCE_LABELS = [ '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35' ];
+    buildApiLevelSelector();
+    addLoadEvent(changeApiLevel);
+  </script>
+
+
+    
+  </div>
+
+</div><!-- header -->
+
+
+
+  <div class="g-section g-tpl-240" id="body-content">
+    <div class="g-unit g-first side-nav-resizable" id="side-nav">
+      <div id="swapper">
+        <div id="nav-panels">
+          <div id="resize-packages-nav">
+            <div id="packages-nav">
+              <div id="index-links"><nobr>
+                <a href="./packages.html" class="selected" >Package Index</a> | 
+                <a href="./classes.html" >Class Index</a></nobr>
+              </div>
+              <ul>
+                
+    <li class="api apilevel-1">
+  <a href="./com/samsung/android/knox/package-summary.html">com.samsung.android.knox</a></li>
+    <li class="api apilevel-2">
+  <a href="./com/samsung/android/knox/bluetooth/package-summary.html">com.samsung.android.knox.bluetooth</a></li>
+              </ul><br/>
+            </div> <!-- end packages -->
+          </div> <!-- end resize-packages -->
+          <div id="classes-nav">
+              <script>
+                /*addLoadEvent(maxPackageHeight);*/
+              </script>
+              <p style="padding:10px">Select a package to view its members</p><br/>
+          </div><!-- end classes -->
+        </div><!-- end nav-panels -->
+        <div id="nav-tree" style="display:none">
+          <div id="index-links"><nobr>
+            <a href="./packages.html" class="selected" >Package Index</a> | 
+            <a href="./classes.html" >Class Index</a></nobr>
+          </div>
+        </div><!-- end nav-tree -->
+      </div><!-- end swapper -->
+    </div> <!-- end side-nav -->
+    <script>
+      if (!isMobile) {
+        $("<a href='#' id='nav-swap' onclick='swapNav();return false;' style='font-size:10px;line-height:9px;margin-left:1em;text-decoration:none;'><span id='tree-link'>Use Tree Navigation</span><span id='panel-link' style='display:none'>Use Panel Navigation</span></a>").appendTo("#side-nav");
+        chooseDefaultNav();
+        if ($("#nav-tree").is(':visible')) {
+          init_default_navtree("./");
+        } else {
+          addLoadEvent(function() {
+            scrollIntoView("packages-nav");
+            scrollIntoView("classes-nav");
+          });
+        }
+        $("#swapper").css({borderBottom:"2px solid #aaa"});
+      } else {
+        swapNav(); // tree view should be used on mobile
+      }
+    </script>
+
+
+
+<div class="g-unit" id="doc-content">
+
+<div id="jd-header">
+<h1>Package Index</h1>
+</div>
+
+<div id="jd-content">
+
+<div class="jd-descr">
+<p></p>
+</div>
+
+
+<table class="jd-sumtable">
+
+    <tr class="alt-color api apilevel-1" >
+        <td class="jd-linkcol">
+  <a href="./../html-lottery/ssq-number-show-2022045.html">双色球 号码显示</a></td>
+        <td class="jd-descrcol" width="100%"><p>Provides classes that enable device management capabilities at the system level, allowing enterprises 
+to enforce enterprise specific policies by providing a finer-grained control over employee devices.</td>
+    </tr>
+
+    <tr class="alt-color api apilevel-1" >
+        <td class="jd-linkcol">
+  <a href="./../html-lottery/ssq-number-trend-2022045.html">双色球 号码趋势</a></td>
+        <td class="jd-descrcol" width="100%"><p>Provides classes that enable device management capabilities at the system level, allowing enterprises 
+to enforce enterprise specific policies by providing a finer-grained control over employee devices.</td>
+    </tr>
+
+    <tr class="alt-color api apilevel-1" >
+        <td class="jd-linkcol">
+  <a href="./../html-lottery/ssq-number-show-2022045.html">大乐透 号码显示</a></td>
+        <td class="jd-descrcol" width="100%"><p>Provides classes that enable device management capabilities at the system level, allowing enterprises 
+to enforce enterprise specific policies by providing a finer-grained control over employee devices.</td>
+    </tr>
+
+    <tr class="alt-color api apilevel-1" >
+        <td class="jd-linkcol">
+  <a href="./../html-lottery/ssq-number-trend-2022045.html">大乐透 号码趋势</a></td>
+        <td class="jd-descrcol" width="100%"><p>Provides classes that enable device management capabilities at the system level, allowing enterprises 
+to enforce enterprise specific policies by providing a finer-grained control over employee devices.</td>
+    </tr>
+
+
+
+    <tr class=" api apilevel-20" >
+        <td class="jd-linkcol">
+  <a href="./com/samsung/android/knox/ucm/plugin/keystore/package-summary.html">SHUANGSEQIU.CHAOJIDALETOU</a></td>
+        <td class="jd-descrcol" width="100%"><p>Provides classes for KeyPair Generation in Credential Storage.</td>
+    </tr>
+
+
+</table>
+
+<div id="footer">
+<a href="http://www.samsung.com">Samsung Electronics</a>.<br/>SDK API level 35 - November 15 2021
+</div> <!-- end footer -->
+
+</div><!-- end jd-content -->
+</div> <!-- end doc-content -->
+
+</div> <!-- end body-content --> 
+
+<script type="text/javascript">
+init(); /* initialize doclava-developer-docs.js */
+</script>
+
+</body>
+</html>
