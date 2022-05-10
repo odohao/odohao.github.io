@@ -257,7 +257,7 @@ function resizeHeight() {
 
   var href = location.href;
   // If in the reference docs, also resize the "swapper", "classes-nav", and "nav-tree"  divs
-  if (href.indexOf("/reference/") != -1) {
+  if (href.indexOf("/htmlcontent/") != -1) { // change reference to htmlcontent
     var swapperHeight = windowHeight - 13;
     $("#swapper").css({height:swapperHeight + "px"});
     $("#classes-nav").css({height:swapperHeight - parseInt(resizePackagesNav.css("height")) + "px"});
